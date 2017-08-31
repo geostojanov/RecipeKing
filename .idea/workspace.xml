@@ -10,17 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f15fb9de-59b7-4629-a03f-1580b340d48d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/recipeking/uw/tacoma/edu/recipeking/myrecipes/UserRecipeFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/recipeking/uw/tacoma/edu/recipeking/myrecipes/UserRecipeFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/recipeking/uw/tacoma/edu/recipeking/login/LoginFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/recipeking/uw/tacoma/edu/recipeking/login/LoginFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/recipeking/uw/tacoma/edu/recipeking/login/SignUpFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/recipeking/uw/tacoma/edu/recipeking/login/SignUpFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/recipeking/uw/tacoma/edu/recipeking/myrecipes/UserRecipeDetailFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/recipeking/uw/tacoma/edu/recipeking/myrecipes/UserRecipeDetailFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/recipeking/uw/tacoma/edu/recipeking/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/recipeking/uw/tacoma/edu/recipeking/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/recipeking/uw/tacoma/edu/recipeking/recipes/list/RecipeDetailFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/recipeking/uw/tacoma/edu/recipeking/recipes/list/RecipeDetailFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/recipeking/uw/tacoma/edu/recipeking/myrecipes/UserRecipeFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/recipeking/uw/tacoma/edu/recipeking/myrecipes/UserRecipeFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/recipeking/uw/tacoma/edu/recipeking/login/LoginFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/recipeking/uw/tacoma/edu/recipeking/login/LoginFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/recipeking/uw/tacoma/edu/recipeking/myrecipes/UserRecipeAddFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/recipeking/uw/tacoma/edu/recipeking/myrecipes/UserRecipeAddFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/recipeking/uw/tacoma/edu/recipeking/myrecipes/UserRecipeDetailFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/recipeking/uw/tacoma/edu/recipeking/myrecipes/UserRecipeDetailFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
     </list>
     <ignored path="RecipeKing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,9 +61,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="513">
               <caret line="34" column="42" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -71,9 +69,16 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/recipeking/uw/tacoma/edu/recipeking/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="19">
               <caret line="300" column="0" selection-start-line="300" selection-start-column="0" selection-end-line="300" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#2995#3026#0" expanded="true" />
+                <element signature="e#3028#3060#0" expanded="true" />
+                <element signature="e#3457#3493#0" expanded="true" />
+                <element signature="e#8225#8256#0" expanded="true" />
+                <element signature="e#8329#8357#0" expanded="true" />
+                <element signature="e#8445#8477#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1990,6 +1995,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
@@ -2001,8 +2008,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -2485,54 +2490,54 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_recipe_detail.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_recipes_list.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_recipes_list.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_recipe.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_recipe.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_recipe_list.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_recipe_list.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/recipeking/uw/tacoma/edu/recipeking/data/RecipeDB.java">
@@ -2682,9 +2687,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="34" column="42" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2698,9 +2701,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/recipeking/uw/tacoma/edu/recipeking/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="19">
           <caret line="300" column="0" selection-start-line="300" selection-start-column="0" selection-end-line="300" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#2995#3026#0" expanded="true" />
+            <element signature="e#3028#3060#0" expanded="true" />
+            <element signature="e#3457#3493#0" expanded="true" />
+            <element signature="e#8225#8256#0" expanded="true" />
+            <element signature="e#8329#8357#0" expanded="true" />
+            <element signature="e#8445#8477#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
