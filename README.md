@@ -21,8 +21,8 @@ Features Implemented:
 7. Sharing Recipes
 
 SQLite and SharedPreferences:
-* SharedPreferences was used for remembering the login info for a user. When a user logs in, he/she stays logged in, even if the app is closed and then started again. We used SharedPreferences because it is a convenient way to store small set of data like login info.
-* We used SQLite for storing the user’s  ‘MyRecipes’ recipes locally, so that even when no network connection is available, the user will get back the data from a local database. We used SQLite in this case, because SQLite is more convenient for storing bigger set of data.
+* SharedPreferences was used for remembering the login info for a user. When a user logs in, he/she stays logged in, even if the app is closed and then started again. SharedPreferences was used because it is a convenient way to store small set of data like login info.
+* SQLite was used for storing the user’s  ‘MyRecipes’ recipes locally, so that even when no network connection is available, the user will get back the data from a local database. SQLite was used in this case, because SQLite is more convenient for storing bigger set of data.
 
 Web Services:
 * Web services was used to pull recipes from an online API database. 
