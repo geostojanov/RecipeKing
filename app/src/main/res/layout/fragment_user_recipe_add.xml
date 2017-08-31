@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+              android:orientation="vertical"
+             tools:context="recipeking.uw.tacoma.edu.recipeking.myrecipes.UserRecipeAddFragment">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textSize="16sp"
+        android:hint="@string/enter_recipe_title"
+        android:id="@+id/add_recipe_title" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textSize="16sp"
+        android:hint="@string/enter_recipe_details"
+        android:id="@+id/add_recipe_details" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="16dp"
+        android:id="@+id/add_recipe_button"
+        android:text="@string/add_recipe_button_text"
+        android:onClick="" />
+
+
+</LinearLayout>

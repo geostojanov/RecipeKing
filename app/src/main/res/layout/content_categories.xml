@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="recipeking.uw.tacoma.edu.recipeking.CategoriesActivity"
+    tools:showIn="@layout/activity_categories">
+
+    <LinearLayout
+        android:layout_marginTop="24dp"
+        android:paddingBottom="36dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/desserts_category_iv"
+            android:contentDescription="@string/desserts_image_view_desc"
+            android:src="@drawable/dessert1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:clickable="true"
+            android:onClick="showActivity" />
+
+        <ImageView
+            android:id="@+id/lunch_category_iv"
+            android:contentDescription="@string/lunch_image_view_desc"
+            android:src="@drawable/lunch1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:clickable="true"
+            android:onClick="showActivity"/>
+
+        <ImageView
+            android:id="@+id/italian_category_iv"
+            android:contentDescription="@string/italian_image_view_desc"
+            android:src="@drawable/italian1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:onClick="showActivity"/>
+
+        <ImageView
+            android:id="@+id/chinese_category_iv"
+            android:contentDescription="@string/chinese_image_view_desc"
+            android:src="@drawable/chinese1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:onClick="showActivity"/>
+
+        <ImageView
+            android:id="@+id/breakfast_category_iv"
+            android:contentDescription="@string/breakfast_image_view_desc"
+            android:src="@drawable/breakfast1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:onClick="showActivity"/>
+
+        <ImageView
+            android:id="@+id/salads_category_iv"
+            android:contentDescription="@string/salads_image_view_desc"
+            android:src="@drawable/salads1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:onClick="showActivity"/>
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

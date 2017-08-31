@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="recipeking.uw.tacoma.edu.recipeking.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <LinearLayout
+        android:id="@+id/main_activity_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/front_image_iv"
+            android:layout_width="fill_parent"
+            android:layout_height="460dp"
+            android:src="@drawable/front_table3_smaller"
+            android:layout_marginBottom="4dp"
+            android:cropToPadding="true"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:id="@+id/browse_button_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:src="@drawable/browse2"
+            android:onClick="showCategoriesActivity"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp" />
+
+        <ImageView
+            android:id="@+id/favorites_button_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:src="@drawable/favorites1"
+            android:onClick="showFavoritesActivity"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"/>
+
+        <ImageView
+            android:id="@+id/my_recipes_button_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:src="@drawable/myrecipes1"
+            android:onClick="showMyRecipesActivity"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"/>
+
+        <ImageView
+            android:id="@+id/food_illustration_iv"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/illustration1_s"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="36dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

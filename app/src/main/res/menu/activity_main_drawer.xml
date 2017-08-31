@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_browse_categories"
+            android:icon="@drawable/ic_browse_black_24dp"
+            android:title="Browse Categories" />
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/ic_star_black_24dp"
+            android:title="Favorites" />
+        <item
+            android:id="@+id/nav_my_recipes"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="My Recipes" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_power_24dp"
+            android:title="Log out" />
+    </group>
+
+    <item android:title="More options">
+        <menu>
+            <item
+                android:id="@+id/nav_pop_articles"
+                android:icon="@drawable/ic_articles_black_24dp"
+                android:title="Popular articles" />
+            <item
+                android:id="@+id/nav_pop_videos"
+                android:icon="@drawable/ic_video_black_24dp"
+                android:title="Popular videos" />
+        </menu>
+    </item>
+
+</menu>
