@@ -1,5 +1,6 @@
 package recipeking.uw.tacoma.edu.recipeking;
 
+import android.app.SearchManager;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -18,8 +19,6 @@ import recipeking.uw.tacoma.edu.recipeking.recipes.list.recipe.Recipe;
 public class RecipesListActivity extends AppCompatActivity implements
         RecipeFragment.OnListFragmentInteractionListener {
 
-    //public ProgressBar mLoadingIndicator;
-
     /**
      * onCreate method for the current activity. Initializes and commits the RecipeFragment
      * together with the message that has been passed to it.
@@ -31,13 +30,18 @@ public class RecipesListActivity extends AppCompatActivity implements
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recipes_list);
         Intent intent = getIntent();
+        String message;
+        if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
+            message = intent.getStringExtra(SearchManager.QUERY);
+        } else {
+            message = intent.getStringExtra(CategoriesActivity.EXTRA_MESSAGE);
+        }
+
 
         // Message from the ImageView that called this activity. If it was 'Desserts'
         // it will build the API URL for desserts; if it was 'Italian' it will build it
         // for italian, etc.
-        String message = intent.getStringExtra(CategoriesActivity.EXTRA_MESSAGE);
 
-        //mLoadingIndicator = (ProgressBar) findViewById(R.id.pb_loading_indicator);
 
         Log.i("RecipesListActivity", "onCreate()");
 
