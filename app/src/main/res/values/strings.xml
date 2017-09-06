@@ -61,4 +61,6 @@
     <string name="enter_recipe_details">Enter recipe details (ingredients and/or instructions)</string>
     <string name="add_recipe_button_text">Add Recipe</string>
 
+    <string name="search_title">E.g. chicken, pizza, chocolate</string>
+
 </resources>
