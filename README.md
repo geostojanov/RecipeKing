@@ -17,7 +17,7 @@ Web Services:
 * Web services was used to pull recipes from an online API database. 
 
 Content Sharing:
-* In the RecipeDetailsFragment there is a share icon which enables the user to share the recipe via all corresponding outlets of messaging, Ex: Email, Messages, Hangouts, etc...
+* In the RecipeDetailsFragment there is a share icon which enables the user to share the recipe via all corresponding outlets of messaging, Ex: Email, Messages, Facebook, etc...
 
 User Stories Implemented:
 1. As a user, I would like to browse popular recipes by categories.
