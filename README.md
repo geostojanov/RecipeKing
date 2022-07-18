@@ -1,7 +1,7 @@
 # RecipeKing
           
 Features Implemented:
-1. Login
+1. Login / Signup
 2. Category Browsing
 3. Favorites List
 4. User Creation of Recipes
