@@ -4,10 +4,10 @@ Features Implemented:
 1. Login / Signup
 2. Browsing recipies by category
 3. Favorites
-4. User Creation of Recipes
-5. Popular Recipe articles and videos
-6. Commenting and Rating on Recipes
-7. Sharing Recipes
+4. User creation of recipes
+5. Popular recipe articles and videos
+6. Commenting and rating on recipes
+7. Sharing recipes
 
 SQLite and SharedPreferences:
 * SharedPreferences was used for remembering the login info for a user. When a user logs in, he/she stays logged in, even if the app is closed and then started again. SharedPreferences was used because it is a convenient way to store small set of data like login info.
