@@ -1,15 +1,4 @@
 # RecipeKing
-
-User Stories Implemented:
-1. As a user, I would like to browse popular recipes by categories.
-2. As a user, I would like to be able to add certain recipes I like to a favorite list, so I can refer to them later.
-3. As a user, I would like to be able to add my own recipe, so all my recipes I have on paper would be easily accessible.
-4. As a user, I would like to be able to rate recipes.
-5. As a user, I would like to be able to comment on recipes.
-6. As a user, I would like to be able to have access to helpful guide videos for recipes.
-7. As a user, I would like to be able to create an account so I can keep track of my favorite recipes.
-8. As a user, I would like to be able to share recipes I like over social media. 
-10. As a user, I would like to be able to have access to popular cooking articles.
           
 Features Implemented:
 1. Login
@@ -29,3 +18,14 @@ Web Services:
 
 Content Sharing:
 * In the RecipeDetailsFragment there is a share icon which enables the user to share the recipe via all corresponding outlets of messaging, Ex: Email, Messages, Hangouts, etc...
+
+User Stories Implemented:
+1. As a user, I would like to browse popular recipes by categories.
+2. As a user, I would like to be able to add certain recipes I like to a favorite list, so I can refer to them later.
+3. As a user, I would like to be able to add my own recipe, so all my recipes I have on paper would be easily accessible.
+4. As a user, I would like to be able to rate recipes.
+5. As a user, I would like to be able to comment on recipes.
+6. As a user, I would like to be able to have access to helpful guide videos for recipes.
+7. As a user, I would like to be able to create an account so I can keep track of my favorite recipes.
+8. As a user, I would like to be able to share recipes I like over social media. 
+10. As a user, I would like to be able to have access to popular cooking articles.
